@@ -31,6 +31,21 @@ In addition to what is shown in the video, I use a docker container for node so 
 ## Create a consumer
 ```node consumer.js```
 
+## Create a topic: Orders
+Creates a topic Orders with three partitions.
+```node topic-3-partitions.js```
+
+
+## Create a stream of messages
+Creates a specified number of messages.
+```node producer-loop.js <num_messages>```
+
+## Consume message stream
+Open three terminal windows and start ```node consumer-3-partitions.js``` in all of them.
+```node consumer-3-partitions.js```
+
+
+
 
 
 
